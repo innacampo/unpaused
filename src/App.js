@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Book, CheckCircle, MessageSquare } from 'lucide-react';
 import { marked } from 'marked';
 
@@ -390,21 +390,26 @@ const App = () => {
                   Hello! I'm your AI sexual health coach. I'm here to help you understand the changes you might be experiencing during menopause based on the provided scientific literature. How can I assist you today?
                 </div>
               ) : (
-                chatHistory.map((msg) => (
+              chatHistory.map((msg) => (
+                <div
+                  key={msg.id}
+                  className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+                >
                   <div
-                    key={msg.id}
-                    className={`flex ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}
+                    className={`p-4 rounded-xl max-w-[80%] prose prose-sm ${msg.sender === 'user'
+                      ? 'bg-rose-500 text-white rounded-br-none'
+                      : 'bg-gray-200 text-gray-800 rounded-bl-none'
+                    }`}
                   >
-                    <div
-                      className={`p-4 rounded-xl max-w-[80%] ${msg.sender === 'user'
-                        ? 'bg-rose-500 text-white rounded-br-none'
-                        : 'bg-gray-200 text-gray-800 rounded-bl-none'
-                      }`}
-                    >
-                      {msg.text}
-                    </div>
+                    {/* Conditionally render based on sender */}
+                    {msg.sender === 'user' ? (
+                      <p>{msg.text}</p> // User messages are simple text
+                    ) : (
+                      <div dangerouslySetInnerHTML={{ __html: marked(msg.text) }} />
+                    )}
                   </div>
-                ))
+                </div>
+              ))
               )}
               {isChatLoading && (
                 <div className="flex justify-start">
