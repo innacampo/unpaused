@@ -192,6 +192,30 @@ Despite the growing body of research, several gaps in current understanding pers
 * **Longitudinal Studies:** To better understand the long-term impact of menopausal symptom severity on mental health and quality of life, more comprehensive longitudinal studies are required, moving beyond cross-sectional associations.
 * **Standardized Measures:** The relationship between anxiety and the menopausal transition remains somewhat unclear due to inconsistencies and a lack of standardized measures of anxiety across various studies. Future research should prioritize the adoption of standardized and validated assessment tools.
 * **Mechanisms of Psychological Impact:** Further investigation is warranted to clarify whether psychological issues diminish after the perimenopausal stage due to habituation to lower estrogen levels. Exploring the genetic, endocrinological, neural, and psychosocial factors that contribute to depressive symptoms during phases of hormonal transitions in women will provide deeper insights.
+
+## 9. References
+
+* **1:** (https://www.dovepress.com/a-meta-ethnography-of-womens-intimate-and-sexual-experiences-across-th-peer-reviewed-fulltext-article-IJWH)
+* **2:** (https://pmc.ncbi.nlm.nih.gov/articles/PMC4834516/)
+* **3:** (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306207)
+* **4:** (https://www.scielo.br/j/rbgo/a/K3hHWFnxfFZdZttskpKX5yj/)
+* **5:** (https://pmc.ncbi.nlm.nih.gov/articles/PMC10449239/)
+* **6:** (https://www.researchgate.net/publication/344145577_Do_complaints_related_to_menopause_affect_sexuality_and_marital_adjustment)
+* **7:** (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280632)
+* **8:** (https://www.imsociety.org/wp-content/uploads/2020/07/sexual-welbeing-after-menopause-english.pdf)
+* **9:** (https://pmc.ncbi.nlm.nih.gov/articles/PMC9178181/)
+* **10:** (https://www.myprivia.com/sites/default/files/2025-04/psvmd_sexualdisinfection_women.pdf)
+* **11:** (https://www.researchgate.net/publication/390688872_Psychological_Changes_at_Menopause_Anxiety_Mood_Swings_and_Sexual_Health_in_the_Biopsychosocial_Context)
+* **12:** (https://www.ncbi.nlm.nih.gov/books/NBK560840/)
+* **13:** (https://www.joinmidi.com/post/how-to-increase-libido)
+* **14:** (https://www.healthline.com/health/womens-health/how-to-increase-estrogen)
+* **15:** (https://www.hopkinsmedicine.org/health/wellness-and-prevention/how-sex-changes-after-menopause)
+* **16:** (https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2024.1323743/full)
+* **17:** (https://www.researchgate.net/publication/347737649_The_impact_of_menopause_on_sexual_function_in_women_and_their_spouses)
+* **18:** (https://gh.bmj.com/content/10/6/e017863)
+* **19:** (https://www.ohsu.edu/sites/default/files/2019-04/Libido-prevalence-Brief_FINAL.pdf)
+* **20:** (https://www.researchgate.net/publication/51491327_The_impact_of_menopause_on_health-related_quality_of_life_Results_from_the_STRIDE_longitudinal_study)
+
 `;
 
 // Helper function to create a unique ID for chat messages
