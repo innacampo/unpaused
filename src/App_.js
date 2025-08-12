@@ -4,7 +4,7 @@ import { marked } from 'marked';
 
 // A placeholder for the original content. In a real app, this would be fetched or imported.
 // The content is a long string of markdown text from the user-provided artifact.
-const scientificContent = `
+const educationalContent = `
 # Sexual Health and Well-being Across the Menopausal Transition: A Comprehensive Review of Peer-Reviewed Scientific Literature
 
 ## 1. Introduction: Defining the Menopausal Transition and its Impact on Sexual Health
@@ -218,96 +218,11 @@ Despite the growing body of research, several gaps in current understanding pers
 
 `;
 
-const educationalContent = `
-
-## Understanding the Change: What Is Menopause?
-
-Menopause is a natural part of a woman's life when her menstrual periods stop for good. It's officially diagnosed after you haven't had a period for 12 months. In the U.S., this usually happens around age 51.
-
-The time leading up to menopause is called **perimenopause**. During this phase, your hormones like estrogen and progesterone start to change, which can cause many of the symptoms you might be feeling. The period after menopause is called postmenopause, and it's a phase that lasts for about one-third of a woman's life.
-
-## How Menopause Can Affect Your Sex Life
-
-Your sexual health is an important part of your overall well-being. Menopause can bring a number of changes to your body and mind that may affect your sex life, including:
-
-* **Painful sex** (medically known as dyspareunia)
-* **A lower interest in sex** (low libido)
-* **Difficulty getting aroused or reaching orgasm**
-
-These changes can affect your self-confidence and overall happiness. It's important to know that these issues are not just physical; they can also be connected to your emotions and relationships.
-
-We'll look at these changes using a "biopsychosocial" approach. This means we'll consider three main areas:
-* **Biological:** The physical changes in your body, like hormone shifts.
-* **Psychological:** Your feelings, like stress, mood, and body image.
-* **Social:** Your relationships and cultural background.
-
-Menopause is a great time to focus on your overall health. By addressing these areas, you can manage symptoms and improve your quality of life. For instance, sometimes a lower sex drive can be caused by other symptoms like hot flashes and poor sleep, which can lead to stress. By managing those symptoms, you can often improve your sexual health, too.
-
-## Physical Changes to Be Aware Of
-
-Hormonal changes during menopause, especially the drop in estrogen, can directly affect your sexual health.
-
-* **Vaginal Dryness and Discomfort:** Lower estrogen levels can lead to vaginal dryness and thinning of the vaginal tissues. This can make sex uncomfortable or even painful. These changes don't usually go away on their own and often require treatment. This is a common condition known as **Genitourinary Syndrome of Menopause (GSM)**.
-* **Changes in Desire and Arousal:** The drop in estrogen can also lower your sexual desire. It might take longer to become aroused, and you might notice less sensitivity. It's common to have a lack of motivation for sex or find it difficult to sustain desire during intimacy.
-* **Orgasm Difficulties:** Many women report having more difficulty reaching orgasm after menopause.
-
-It's important to remember that these changes are a normal part of the process, and there are many ways to manage them.
-
-## The Mental Side of Menopause
-
-Your emotional and mental well-being are key to a healthy sex life.
-
-* **Mood Swings and Stress:** The drop in hormones can affect your mood, making you more prone to depression and anxiety. This can be a huge factor in a lower sex drive, as a depressed mood can be linked to more severe physical symptoms like hot flashes and poor sleep.
-* **Body Image:** Changes in your body, such as weight gain or wrinkles, can make you feel less attractive, which can hurt your self-confidence and desire for sex. On the other hand, women who feel good about their bodies and are well-informed about menopause often report higher sexual satisfaction.
-* **Lifestyle Factors:** Outside of hormones, things like chronic stress, anxiety, lack of sleep, and an unhealthy diet can also contribute to a low sex drive.
-
-The early stages of menopause, or perimenopause, can be a time of heightened emotional challenges. Getting support during this phase is crucial for your long-term sexual health and happiness.
-
-## How Your Relationships Play a Role
-
-Sexual health isn't just an individual journey—it’s also about your relationship with your partner.
-
-* **Partners and Communication:** Your partner's sexual health, such as erectile dysfunction, can influence your own sexual interest. Open and honest communication with your partner about these changes is key to maintaining intimacy and satisfaction. A partner who is supportive and understanding can make a huge positive difference.
-* **Cultural Influences:** How you view menopause and sex can be shaped by your culture and upbringing. In some cultures, menopause might be seen as the end of a woman's sexual life, while in others, it's a time of sexual freedom because the worries of pregnancy are gone.
-
-It's a good idea to think of your sexual health as a team effort with your partner. Talking things through and finding new ways to be intimate can strengthen your relationship.
-
-## Common Sexual Health Challenges
-
-Many women experience changes in their sexual health during menopause. Here are some of the most common issues:
-
-* **Low Sexual Desire:** This is the most common complaint among postmenopausal women. Research shows that about a third of women in their 40s to mid-60s report a lower sex drive with distress.
-* **Vaginal Dryness and Painful Sex:** These issues become more common in the later stages of perimenopause and after menopause. Over half of postmenopausal women report vaginal dryness.
-* **Difficulty with Orgasm:** Problems with orgasm are also common.
-
-While these issues are widespread, every woman's experience is different. Some women may find they enjoy sex more after menopause, feeling a sense of freedom from the fear of pregnancy.
-
-## What You Can Do About It
-
-There are many effective ways to manage these challenges. A combination of approaches often works best.
-
-### Medical Options
-* **Hormone Therapy:** This can help with symptoms like vaginal dryness, itching, and painful sex by increasing lubrication and blood flow. Talk to your doctor to see if this is right for you.
-* **Local Estrogen Creams or Rings:** These topical treatments are very effective for vaginal dryness and pain with minimal side effects.
-* **Over-the-Counter Solutions:** Using vaginal moisturizers a few times a week can provide natural hydration, while using lubricants during sex can make intercourse more comfortable. Choose fragrance-free products to protect your vaginal health.
-
-### Lifestyle and Behavioral Changes
-* **Healthy Diet:** A balanced diet, like the Mediterranean Diet, can help with blood flow and lubrication.
-* **Stay Active:** Regular exercise can boost your mood, energy levels, and body image, which can lead to a healthier sex drive. One study found that women who exercised regularly had a much lower chance of having low libido.
-* **Prioritize Sleep:** Getting enough sleep is crucial, as sleep problems are linked to sexual dysfunction.
-* **Talk to Your Partner:** Keep the lines of communication open and be honest about what you're feeling and what you need.
-* **Try New Things:** Intimacy doesn't have to be just about intercourse. Explore non-genital touch and emotional closeness. Using sex toys and trying new positions can also help with arousal and orgasm.
-* **Seek Professional Help:** Don't be afraid to talk to a gynecologist, therapist, or sexual health expert. They can provide support and guidance in a safe, non-judgmental space.
-
-Remember, menopause is a journey. With the right information and support, you can continue to have a fulfilling and satisfying sex life.
-
-`;
-
 // Helper function to create a unique ID for chat messages
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('chatbot');
+  const [currentPage, setCurrentPage] = useState('home');
   const [quizAnswers, setQuizAnswers] = useState({});
   const [chatHistory, setChatHistory] = useState([]);
   const [userInput, setUserInput] = useState('');
@@ -388,7 +303,7 @@ const App = () => {
         Do not provide medical advice or diagnoses. Always encourage the user to consult a healthcare professional.
         Base your responses on the provided comprehensive review of peer-reviewed scientific literature on sexual health during menopause.
         Here is the source document you should reference:
-        "${scientificContent}"
+        "${educationalContent}"
         Acknowledge the user's feelings and then provide a helpful response.
         User message: "${userInput}"
       `;
@@ -424,7 +339,7 @@ const App = () => {
     switch (currentPage) {
       case 'home':
         return (
-          <div key={currentPage} className="prose prose-lg mx-auto p-6 md:p-10 lg:prose-xl text-justify">
+          <div key={currentPage} className="prose prose-lg mx-auto p-6 md:p-10 lg:prose-xl">
             <div dangerouslySetInnerHTML={{ __html: marked(educationalContent) }} />
           </div>
         );
@@ -472,7 +387,7 @@ const App = () => {
             <div className="flex-1 overflow-y-auto space-y-4 p-4 mb-4 bg-gray-50 rounded-xl scroll-smooth">
               {chatHistory.length === 0 ? (
                 <div className="text-center text-gray-500 italic p-6">
-                  Hello! I'm your AI sexual health coach. I'm here to help you understand the changes you might be experiencing during menopause. How can I assist you today?
+                  Hello! I'm your AI sexual health coach. I'm here to help you understand the changes you might be experiencing during menopause based on the provided scientific literature. How can I assist you today?
                 </div>
               ) : (
               chatHistory.map((msg) => (
@@ -538,11 +453,11 @@ const App = () => {
             <ul className="flex space-x-2 md:space-x-4">
               <li>
                 <button
-                  onClick={() => setCurrentPage('chatbot')}
-                  className={`flex items-center px-3 py-2 rounded-full text-sm font-medium transition duration-300 ${currentPage === 'chatbot' ? 'bg-rose-500 text-white shadow-lg' : 'text-gray-600 hover:bg-gray-200'}`}
+                  onClick={() => setCurrentPage('home')}
+                  className={`flex items-center px-3 py-2 rounded-full text-sm font-medium transition duration-300 ${currentPage === 'home' ? 'bg-rose-500 text-white shadow-lg' : 'text-gray-600 hover:bg-gray-200'}`}
                 >
-                  <MessageSquare className="h-4 w-4 mr-2" />
-                  Chatbot
+                  <Book className="h-4 w-4 mr-2" />
+                  Education
                 </button>
               </li>
               <li>
@@ -556,11 +471,11 @@ const App = () => {
               </li>
               <li>
                 <button
-                  onClick={() => setCurrentPage('home')}
-                  className={`flex items-center px-3 py-2 rounded-full text-sm font-medium transition duration-300 ${currentPage === 'home' ? 'bg-rose-500 text-white shadow-lg' : 'text-gray-600 hover:bg-gray-200'}`}
+                  onClick={() => setCurrentPage('chatbot')}
+                  className={`flex items-center px-3 py-2 rounded-full text-sm font-medium transition duration-300 ${currentPage === 'chatbot' ? 'bg-rose-500 text-white shadow-lg' : 'text-gray-600 hover:bg-gray-200'}`}
                 >
-                  <Book className="h-4 w-4 mr-2" />
-                  Education
+                  <MessageSquare className="h-4 w-4 mr-2" />
+                  Chatbot
                 </button>
               </li>
             </ul>
@@ -580,8 +495,7 @@ const App = () => {
       <footer className="bg-white shadow-inner p-4 text-center text-gray-500 text-sm">
         <div className="container mx-auto">
           <p>
-            Disclaimer: This application is for informational and educational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. 
-            Created by Inna Campo in collaboration with Google Genimi 2.5
+            Disclaimer: This application is for informational and educational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
           </p>
         </div>
       </footer>
