@@ -581,7 +581,7 @@ const App = () => {
         <div className="container mx-auto">
           <p>
             Disclaimer: This application is for informational and educational purposes only. It is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. 
-            Created by Inna Campo in collaboration with Google Genimi 2.5
+            Created by Inna Campo in collaboration with Google Gemini 2.5
           </p>
         </div>
       </footer>
